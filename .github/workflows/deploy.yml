@@ -85,4 +85,3 @@ jobs:
 
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/si-2025-lab3:${BRANCH_NAME}-latest
-name: Dummy workflow\non: push\njobs:\n  dummy:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo Hello
